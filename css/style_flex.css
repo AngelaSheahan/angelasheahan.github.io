@@ -1,0 +1,20 @@
+.fungames {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blue;
+    margin: 5px;
+    padding: 10px;
+}
+
+.fungames>div {
+    background-color: yellow;
+    min-width: 100px;
+    max-width: 200px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#games-heading {
+    text-align: center;
+}
