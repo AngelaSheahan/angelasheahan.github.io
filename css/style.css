@@ -27,6 +27,7 @@ h2 {
 
 /* formating the nav elements */
 #menu {
+    float: left;
     font-size: 110%;
 }
 
@@ -94,18 +95,4 @@ h2 {
 
 #game-name {
     text-align: center;
-}
-
-/****************************/
-
-.flex-container {
-    display: flex;
-    background-color: DodgerBlue;
-}
-
-.flex-container>div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
 }
