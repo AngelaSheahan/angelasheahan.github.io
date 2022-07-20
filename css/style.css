@@ -132,3 +132,8 @@ li {
 .footer {
     text-align: center;
 }
+.class {
+    display: flex;
+    text-align: left;
+}
+        
