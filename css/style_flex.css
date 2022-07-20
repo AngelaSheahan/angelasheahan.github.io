@@ -46,9 +46,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* overflow: auto; */
     background-color: blue;
-    /* margin: 5px; */
+    margin: 5px;
     padding: 10px;
 }
 
@@ -56,6 +55,7 @@
     background-color: yellow;
     margin: 5px;
     padding: 10px;
-    float: left;
-    width: 33%;
+ 
+    /* float: left; */
+    width: 31%;
 }
