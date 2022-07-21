@@ -8,6 +8,7 @@
         kids can also enter their own recommendations">
     <title>Goofie_Games</title>
     <meta name="keywords" content="fun games, recommendations, goofie">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style_flex.css">
 
 <body>
@@ -21,81 +22,89 @@
             <a href="myfavourite.html">My Favourite</a>
         </div>
     </header>
-
     <section>
         <div class="form-heading">
             <h2> Sign Up & Become a GoofieGames Member</h2>
         </div>
     </section>
-    <div class="container">
-        <form action="action_page.php">
-            <div class="row">
-                <div class="label">
-                    <label for="fname">First Name</label>
+    <section>
+        <div class="container">
+            <form action="action_page.php">
+                <div class="row">
+                    <div class="label">
+                        <label for="fname">First Name</label>
+                    </div>
+                    <div class="info">
+                        <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+                    </div>
                 </div>
-                <div class="info">
-                    <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+                <div class="row">
+                    <div class="label">
+                        <label for="lname">Last Name</label>
+                    </div>
+                    <div class="info">
+                        <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="label">
-                    <label for="lname">Last Name</label>
+                <div class="row">
+                    <div class="label">
+                        <label for="age">Age</label>
+                    </div>
+                    <div class="info">
+                        <input type="date" id="age" name="age" placeholder="Your Date of Birth">
+                    </div>
                 </div>
-                <div class="info">
-                    <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+                <div class="row">
+                    <div class="label">
+                        <label for="parent/guardian email">Parent/Guardian Email</label>
+                    </div>
+                    <div class="info">
+                        <input type="email" id="email" name="email" placeholder="Email Address.">
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="label">
-                    <label for="age">Age</label>
+                <div class="row">
+                    <div class="label">
+                        <label for="recommended-game">Recommended Game</label>
+                    </div>
+                    <div class="info">
+                        <input type="text" id="game" name="Recommended Game" placeholder="Game Name">
+                    </div>
                 </div>
-                <div class="info">
-                    <input type="date" id="age" name="age" placeholder="Your Date of Birth">
+                <div class="row">
+                    <div class="label">
+                        <label for="device">On which device do you play this game?</label>
+                    </div>
+                    <div class="info">
+                        <select id="device" name="device">
+                            <option value="nintendo">Nintendo</option>
+                            <option value="xbox">Xbox</option>
+                            <option value="playstation">Playstation</option>
+                            <option value="pc">PC</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="label">
-                    <label for="parent/guardian email">Parent/Guardian Email</label>
+                <div class="row">
+                    <div class="label">
+                        <label for="why I like this Game">Why I like this Game</label>
+                    </div>
+                    <div class="info">
+                        <textarea id="reasons" name="reasons" placeholder="Please say what you like about this game" git
+                            commstyle="height:200px"></textarea>
+                    </div>
                 </div>
-                <div class="info">
-                    <input type="email" id="email" name="email" placeholder="Email Address.">
+                <div class="row">
+                    <input type="submit" value="Submit">
                 </div>
-            </div>
-            <div class="row">
-                <div class="label">
-                    <label for="recommended-game">Recommended Game</label>
-                </div>
-                <div class="info">
-                    <input type="text" id="game" name="Recommended Game" placeholder="Game Name">
-                </div>
-            </div>
-            <div class="row">
-                <div class="label">
-                    <label for="device">On which device do you play this game?</label>
-                </div>
-                <div class="info">
-                    <select id="device" name="device">
-                        <option value="nintendo">Nintendo</option>
-                        <option value="xbox">Xbox</option>
-                        <option value="playstation">Playstation</option>
-                        <option value="pc">PC</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <div class="label">
-                    <label for="why I like this Game">Why I like this Game</label>
-                </div>
-                <div class="info">
-                    <textarea id="reasons" name="reasons" placeholder="Please say what you like about this game" git
-                        commstyle="height:200px"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <input type="submit" value="Submit">
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+    </section>
+    <section class="footer">
+        <h3 id="contact">Contact Us</h3>
+        <h4><i>goofiegames.com</i></h4>
+        <a href="Facebook" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;
+        <a href="Twitter" class="fa fa-twitter"></a>&nbsp;&nbsp;&nbsp;
+        <a href="Instagram" class="fa fa-instagram"></a>
+    </section>
 </body>
 
 </html>

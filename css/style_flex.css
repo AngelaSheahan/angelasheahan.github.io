@@ -38,13 +38,20 @@ h2 {
   padding: 10px;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+/* Responsive layout when the screen is less than 600px wide */
+@media screen and (max-width: 600px) {
 
   .row,
   .navbar,
   .fungames {
     flex-direction: column;
+  }
+
+  .label,
+  .info,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
   }
 }
 
@@ -59,7 +66,6 @@ h2 {
   background-color: yellow;
   margin: 5px;
   padding: 10px;
-  width: 31%;
 }
 
 /* sign up form */
@@ -122,22 +128,10 @@ input[type=submit]:hover {
   clear: both;
 }
 
-/* Responsive - when the screen is less than 600px wide, the labels stack on top of input field */
-@media screen and (max-width: 600px) {
-
-  .label,
-  .col-75.info,
-  input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-
 .about ul li {
   padding-bottom: 20px;
   padding-left: 12px;
   text-align: left;
-
 }
 
 .social-media {
@@ -147,7 +141,6 @@ input[type=submit]:hover {
   background-color: blue;
   margin: 5px;
   padding: 10px;
-
 }
 
 .social-media a {
@@ -158,7 +151,6 @@ input[type=submit]:hover {
   text-align: center;
   box-sizing: border-box;
   border: 1px solid red;
-
 }
 
 /* Facebook */
