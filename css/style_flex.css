@@ -42,15 +42,14 @@ h2 {
 @media screen and (max-width: 700px) {
 
   .row,
-  .navbar {
+  .navbar,
+  .fungames {
     flex-direction: column;
   }
 }
 
 .fungames {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   background-color: blue;
   margin: 5px;
   padding: 10px;
@@ -60,7 +59,6 @@ h2 {
   background-color: yellow;
   margin: 5px;
   padding: 10px;
-  float: left;
   width: 31%;
 }
 
