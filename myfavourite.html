@@ -22,15 +22,75 @@
         </div>
     </header>
     <section>
-        <div id="Sign-in-form">
-            <input type="text" name="username" placeholder="Name">
-            <input type="email" name="email" placeholder="Contact Email">
-            <input type="submit" name="submit-button" placeholder="Sign-Up">
-        </div>
+        <form>
+            <div class="container">
+                <form action="action_page.php">
+                    <div class="row">
+                        <div class="first">
+                            <label for="fname">First Name</label>
+                        </div>
+                        <div class="firstname">
+                            <input type="text" id="fname" name="firstname" placeholder="Your firstname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="surname">
+                            <label for="lname">Last Name</label>
+                        </div>
+                        <div class="lastname">
+                            <input type="text" id="lname" name="lastname" placeholder="Your lastname">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="years">
+                            <label for="age">Age</label>
+                        </div>
+                        <div class="age">
+                            <input type="date" id="age" name="age" placeholder="Your age">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contact">
+                            <label for="parent/guardian email">Parent/Guardian Email</label>
+                        </div>
+                        <div class="email">
+                            <input type="email" id="email" name="email" placeholder="Email Address.">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="rec-game">
+                            <label for="recommended-game">Recommended Game</label>
+                        </div>
+                        <div class="game">
+                            <input type="text" id="game" name="Recommended Game" placeholder="game name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="device">
+                            <label for="device">On which device do you play this game?</label>
+                        </div>
+                        <div class="platform">
+                            <select id="device" name="device">
+                                <option value="nintendo">Nintendo</option>
+                                <option value="xbox">Xbox</option>
+                                <option value="playstation">Playstation</option>
+                                <option value="pc">PC</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="why I like this Game">
+                            <label for="why I like this Game">Why I like this Game</label>
+                        </div>
+                        <div class="reasons">
+                            <textarea id="reasons" name="reasons" placeholder="please say what you like about this game" style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
     </section>
 </body>
+
 </html>
-
-
-
-
