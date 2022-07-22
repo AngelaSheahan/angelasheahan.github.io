@@ -141,9 +141,15 @@ input[type=submit]:hover {
   clear: both;
 }
 
+.about {
+  background-color: #d3d3d3;
+  padding-top: 20px ;
+  width: 45%;
+  /* opacity: .8; */
+}
+
 .about ul li {
   padding-bottom: 20px;
-  padding-left: 10px;
   text-align: left;
 }
 
