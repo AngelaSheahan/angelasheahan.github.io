@@ -143,8 +143,8 @@ input[type=submit]:hover {
 
 .about {
   background-color: #d3d3d3;
-  padding-top: 20px ;
-  width: 45%;
+  padding-top: 20px;
+  width: 50%;
   /* opacity: .8; */
 }
 
@@ -180,4 +180,13 @@ input[type=submit]:hover {
 } */
 
 .li:before {
-  content:”\00A3″; font-family: “Font Awesome 5 Free“; font-weight: 900; }
+  content: ”\00A3″;
+  font-family: “Font Awesome 5 Free“;
+  font-weight: 900;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
