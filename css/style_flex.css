@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:wght@300&family.Oswald&display=swap');
 
+
 h2 {
   padding-left: 10px;
 }
@@ -71,6 +72,7 @@ h2 {
 /* sign up form */
 .form-heading h2 {
   padding: 10px;
+  text-align: center;
 }
 
 input[type=text],
@@ -104,9 +106,14 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-image: url("../images/kids-playing-computer.jpeg");
+  background-image: url("../images/kids\ playing\ computer\ games.webp");
   background-size: contain;
   padding: 30px;
+}
+
+.we-do {
+  background-color: beige;
+  opacity: .8;
 }
 
 .label {
@@ -115,9 +122,15 @@ input[type=submit]:hover {
   margin-top: 6px;
 }
 
+.info1 {
+  float: left;
+  width: 10%;
+  margin-top: 6px;
+}
+
 .info {
   float: left;
-  width: 75%;
+  width: 50%;
   margin-top: 6px;
 }
 
