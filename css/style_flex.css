@@ -64,6 +64,9 @@ h2 {
 }
 
 .fungames>div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 31%;
   background-color: yellow;
   margin: 5px;
   padding: 10px;
