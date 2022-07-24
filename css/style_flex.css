@@ -4,6 +4,7 @@ h2 {
   padding-left: 10px;
 }
 
+
 /* Header/logo Title */
 .header {
   padding: 10px;
@@ -53,6 +54,11 @@ h2 {
     width: 100%;
     margin-top: 0;
   }
+}
+
+
+.fungames h3 {
+  text-align: center;
 }
 
 .fungames {
