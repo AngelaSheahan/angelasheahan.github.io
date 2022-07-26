@@ -4,6 +4,9 @@ h1,
 h2,
 h3 {
   padding-left: 10px;
+  text-transform: uppercase;
+  font-size: large;
+  text-align: center;
 }
 
 /* Style the top navigation bar */
@@ -46,7 +49,7 @@ h3 {
 }
 
 .fungames {
-  background-color: lightgray;
+  background-color: #f9c70e;
   display: flex;
   margin: 5px;
   padding: 10px;
@@ -106,7 +109,7 @@ input[type=submit]:hover {
   background-image: url("../images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 30px;
+  padding: 10px;
 }
 
 .we-do {
@@ -115,6 +118,7 @@ input[type=submit]:hover {
 }
 
 .label {
+  padding: 10px;
   text-transform: uppercase;
   color: white;
   font-weight: bolder;
@@ -143,17 +147,29 @@ input[type=submit]:hover {
 }
 
 .about {
-  background-color: white;
+  /* background-color: white; */
   padding: 10px;
   width: 50%;
 }
 
-.about h2,
-ul li {
-  color: black;
+.about ul li {
+  color: white;
   font-weight: bolder;
   letter-spacing: 2px;
-  font-size: large;
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  text-align: left;
+  border-bottom: solid;
+  color: white;
+}
+
+
+.about p {
+  letter-spacing: 2px;
+  font-size: medium;
   text-transform: uppercase;
 }
 
@@ -207,12 +223,33 @@ h2 {
     width: auto;
   }
 
-  .about h2,
-  ul li {
+  h2 {
     font-weight: normal;
+    font-weight: bolder;
     letter-spacing: 2px;
-    font-size: medium;
+    font-size: small;
     text-transform: uppercase;
   }
-  
+
+  .about ul li {
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-size: small;
+    text-transform: uppercase;
+  }
+  .fungames h3 {
+  color: black;
+  letter-spacing: 2px;
+  font-size: small;
+  text-transform: uppercase;
+}
+.fungames p {
+  color: black;
+  letter-spacing: 2px;
+  font-size: small;
+  text-transform: uppercase;
+}
+.info {
+  overflow: hidden;
+}
 }
