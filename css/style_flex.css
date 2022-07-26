@@ -184,11 +184,12 @@ ul li {
 }
 
 
-/* .li:before {
+.li:before {
   content: ”\00A3″;
   font-family: “Font Awesome 5 Free“;
-  font-weight: 900; */
+  font-weight: 900;
 }
+
 
 ul.no-bullets {
   list-style-type: none;

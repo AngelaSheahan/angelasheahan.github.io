@@ -21,89 +21,90 @@
             <a href="myfavourite.html">My Favourite</a>
         </div>
     </header>
-    <section>
-        <div class="form-heading">
-            <h2 id="form-head">Sign Up & Become a GoofieGames Member</h2>
-        </div>
+
+    <section class="form-heading">
+        <h2 id="form-head">Sign Up & Become a GoofieGames Member</h2>
     </section>
-    <section>
-        <div class="container">
-            <form action="action_page.php">
-                <div class="row">
-                    <div class="label">
-                        <label for="fname">First Name</label>
-                    </div>
-                    <div class="info">
-                        <input type="text" id="fname" name="firstname" value="Your First Name">
-                    </div>
+    <section class="container">
+        <form action="action_page.php">
+            <div class="row">
+                <div class="label">
+                    <label for="fname">First Name</label>
                 </div>
-                <div class="row">
-                    <div class="label">
-                        <label for="lname">Last Name</label>
-                    </div>
-                    <div class="info">
-                        <input type="text" id="lname" name="lastname" value="Your Last Name">
-                    </div>
+                <div class="info">
+                    <input type="text" id="fname" name="firstname" value="Your First Name">
                 </div>
-                <div class="row">
-                    <div class="label">
-                        <label for="age">Age</label>
-                    </div>
-                    <div class="info">
-                        <input type="date" id="age" name="age" value="Your Date of Birth">
-                    </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="lname">Last Name</label>
                 </div>
-                <div class="row">
-                    <div class="label">
-                        <label for="parent/guardian email">Parent/Guardian Email</label>
-                    </div>
-                    <div class="info">
-                        <input type="email" id="email" name="email" value="Email Address">
-                    </div>
+                <div class="info">
+                    <input type="text" id="lname" name="lastname" value="Your Last Name">
                 </div>
-                <div class="row">
-                    <div class="label">
-                        <label for="recommended-game">Recommended Game</label>
-                    </div>
-                    <div class="info">
-                        <input type="text" id="game" name="Recommended Game" value="Game Name">
-                    </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="age">Age</label>
                 </div>
-                <div class="row">
-                    <div class="label">
-                        <label for="device">On which device do you play this game?</label>
-                    </div>
-                    <div class="info1">
-                        <select id="device" name="device">
-                            <option value="nintendo">Nintendo</option>
-                            <option value="xbox">Xbox</option>
-                            <option value="playstation">Playstation</option>
-                            <option value="pc">PC</option>
-                        </select>
-                    </div>
+                <div class="info">
+                    <input type="age" name="age" type="text" list="age-range">
+                    <datalist id="age-range">
+                        <option value="6-7">
+                        <option value="8-9">
+                        <option value="10-11">
+                        <option value="12">
+                        </datalist>
                 </div>
-                <div class="row">
-                    <div class="label">
-                        <label for="why I like this Game">Why I like this Game</label>
-                    </div>
-                    <div class="info">
-                        
-                        <textarea id="reasons" name="reasons" value="Please say what you like about this game" git
-                            commstyle="height:200px"></textarea>
-                    </div>
+            </div>
+
+            <div class="row">
+                <div class="label">
+                    <label for="email">Parent/Guardian Email</label>
                 </div>
+                <div class="info">
+                    <input type="email" id="email" name="email" value="Email Address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="game">Recommended Game</label>
+                </div>
+                <div class="info">
+                    <input type="text" id="game" name="game" value="Game Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="device">On which device do you play this game?</label>
+                </div>
+                <div class="info1">
+                    <select id="device" name="device">
+                        <option value="nintendo">Nintendo</option>
+                        <option value="xbox">Xbox</option>
+                        <option value="playstation">Playstation</option>
+                        <option value="pc">PC</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="label">
+                    <label for="details">Why I like this Game</label>
+                </div>
+
                 <div class="row">
                     <input type="submit" value="Submit">
                 </div>
-            </form>
-        </div>
+        </form>
     </section>
     <section class="footer">
         <h3 id="contact">Contact Us</h3>
         <h4><i>goofiegames.com</i></h4>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="fa-brands fa-facebook-square"></i></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.twitter.com" target="_blank" rel="noopener" class="fa-brands fa-twitter-square"></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://www.instagram.com" target="_blank" rel="noopener" class="fa-brands fa-instagram-square"></a>  
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+            class="fa-brands fa-facebook-square"></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+            class="fa-brands fa-twitter-square"></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com" target="_blank" rel="noopener" class="fa-brands fa-instagram-square"></a>
     </section>
 </body>
 
