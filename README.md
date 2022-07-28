@@ -106,8 +106,8 @@ Created using [Figma](https://www.figma.com/)
 - The form, on page 3 of my site, passed validation tests.
 
 ### Validator Testing
-- HTML ( W3C Validator)  
-Homepage & Fun Games Page (No errors/warnings)
+#### HTML Testing (via W3C Validator)
+- Homepage & Fun Games Page (No errors/warnings)
 
 ![HTML Validator result](docs/html-error-myfavourite.PNG)
 
@@ -115,16 +115,20 @@ Homepage & Fun Games Page (No errors/warnings)
 
 ![HTML Validator result](docs/html-error-myfavourite.PNG)
 
-- CSS (Jigsaw Validator)
+#### CSS (Jigsaw Validator)
 
 ![CSS Validator result](docs/css-validation-results.PNG)
 
-- Accessibility (Lighthouse in DevTools  
-Homepage
+#### Accessibility (Lighthouse in DevTools)
+
+- Homepage
+
 ![Lighthouse Accessibility Result](docs/lighthouse-homepage.PNG)  
-Fun Games Pge 
+
+- Fun Games Page 
 ![Lighthouse Accessibility Result](docs/lighthouse-fungames.PNG)
-My Favourite Page  
+
+- My Favourite Page  
 ![Lighthouse Accessibility Result](docs/lighthouse-formpage.PNG)
 
 ## Deployment
