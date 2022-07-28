@@ -64,10 +64,17 @@ The elements on this page are:
     - A 'Why I like this game' textarea.
 - The form is valuable to the child because the child can give his/her game recommendation(s), which will be saved on the site and can be choosen to be displayed on the Home Page on a particular week.
 
-### Contact Section
-
 ### Features Left to Implement
 The 'Best Recommended Game Winner' section, where a members' game recommendation (after having being vetted) will be randomly selected to be displayed on the Home Page of my site.
+
+### Technology Used
+- HTML
+- CSS
+- [Fontawesome](https://fontawesome.com/) - for device icons
+- [Abobe Express](https://www.adobe.com/express/) - to create my header banner.
+- [Figma](https://www.figma.com/) - to create my Wireframes  
+- [Pexel](https://www.pexels.com/royalty-free-images/) - to source my hero image  
+
 
 
 ### Testing
@@ -104,7 +111,8 @@ My Favourite Page
 ### Deployment
 - Deployed to GitHub pages ....
 
-### Credits
-- Content
-- Media
+### Credits  
+[w3schools](https://www.w3schools.com/)  
+
+[stackoverflow](https://stackoverflow.com/)  
 
