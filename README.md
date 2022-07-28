@@ -65,26 +65,49 @@ The elements on this page are:
 - The form is valuable to the child because the child can give his/her game recommendation(s), which will be saved on the site and can be choosen to be displayed on the Home Page on a particular week.
 
 ### Features Left to Implement
-The 'Best Recommended Game Winner' section, where a members' game recommendation (after having being vetted) will be randomly selected to be displayed on the Home Page of my site.
+The 'Best Recommended Game Winner' section, where a members' game recommendation (after having being vetted) will be randomly selected to be displayed on the Home Page of my site.  
 
-### Technology Used
+## Design 
+### Colour Scheme
+Background colour for Page 2 and footer is a mustard shade, #f9c70e;
+Navigation bar is black and changes to white on hover.
+
+### Typography  
+Monospace google font imported via CSS file (style_flex.css)
+
+### Imagery  
+Header banner & Logo - created using Adobe Express.
+Hero image sourced from - [Pexel](https://www.pexels.com/royalty-free-images/)  
+### Wireframes
+Created using [Figma](https://www.figma.com/)  
+
+[Mobile Wireframe - Homepage](images/wireframes1.png)
+[Desktop Wireframe - Homepage](images/wireframes2.png)  
+[Mobile Wireframe - Fun Games Page](images/wireframes3.png)  
+[Desktop Wireframe - Fun Games Page](images/wireframes4.png)  
+[Mobile Wireframe - Favourite Page](images/wireframes5.png)
+[Desktop Wireframe - Favourite Page](images/wireframes6.png)
+
+ 
+Webpage 2 ba
+## Technology Used
 - HTML
 - CSS
-- [Fontawesome](https://fontawesome.com/) - for device icons
+- [Fontawesome](https://fontawesome.com/) - for xbox, playstation, nintendo, PC icons.
 - [Abobe Express](https://www.adobe.com/express/) - to create my header banner.
 - [Figma](https://www.figma.com/) - to create my Wireframes  
-- [Pexel](https://www.pexels.com/royalty-free-images/) - to source my hero image  
+- [Pexel](https://www.pexels.com/royalty-free-images/) - to source my hero image.  
+- [Google Fonts](https://fonts.google.com/)- used to import the Monospace font-family.  
 
 
 
-### Testing
-- ..... the page worked in different browser: Chrome, Firefox, Safari.
-- ...... the website is reponsive.
-- .... easy to navigate.
-- links work ...
-- form works ...
+## Testing
+- Goofie Games site worked in different browsers: Chrome, Firefox, Safari.
+- My website is fully responsive.
+- My website is easy to navigate.
+- All the links (internal & external) have been tested and work.
+- The form, on page 3 of my site, passed validation tests.
 
-### Bugs
 
 ### Validator Testing
 - HTML ( W3C Validator)  
@@ -108,10 +131,10 @@ Fun Games Pge
 My Favourite Page  
 ![Lighthouse Accessibility Result](docs/lighthouse-formpage.PNG)
 
-### Deployment
+## Deployment
 - Deployed to GitHub pages ....
 
-### Credits  
+## Credits  
 [w3schools](https://www.w3schools.com/)  
 
 [stackoverflow](https://stackoverflow.com/)  
