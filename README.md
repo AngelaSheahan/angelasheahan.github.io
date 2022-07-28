@@ -77,27 +77,27 @@ Monospace google font imported via CSS file (style_flex.css)
 
 ### Imagery  
 Header banner & Logo - created using Adobe Express.
-Hero image sourced from - [Pexel](https://www.pexels.com/royalty-free-images/)  
+Hero image sourced from - ![Pexel](https://www.pexels.com/royalty-free-images/)  
 ### Wireframes
-Created using [Figma](https://www.figma.com/)  
+Created using ![Figma](https://www.figma.com/)  
 
-[Mobile Wireframe - Homepage](images/wireframes1.png)
-[Desktop Wireframe - Homepage](images/wireframes2.png)  
-[Mobile Wireframe - Fun Games Page](images/wireframes3.png)  
-[Desktop Wireframe - Fun Games Page](images/wireframes4.png)  
-[Mobile Wireframe - Favourite Page](images/wireframes5.png)
-[Desktop Wireframe - Favourite Page](images/wireframes6.png)
+![Mobile Wireframe - Homepage](images/wireframes1.png)
+![Desktop Wireframe - Homepage](images/wireframes2.png)  
+![Mobile Wireframe - Fun Games Page](images/wireframes3.png)  
+![Desktop Wireframe - Fun Games Page](images/wireframes4.png)  
+![Mobile Wireframe - Favourite Page](images/wireframes5.png)
+![Desktop Wireframe - Favourite Page](images/wireframes6.png)
 
  
 Webpage 2 ba
 ## Technology Used
 - HTML
 - CSS
-- [Fontawesome](https://fontawesome.com/) - for xbox, playstation, nintendo, PC icons.
-- [Abobe Express](https://www.adobe.com/express/) - to create my header banner.
-- [Figma](https://www.figma.com/) - to create my Wireframes  
-- [Pexel](https://www.pexels.com/royalty-free-images/) - to source my hero image.  
-- [Google Fonts](https://fonts.google.com/)- used to import the Monospace font-family.  
+- ![Fontawesome](https://fontawesome.com/) - for xbox, playstation, nintendo, PC icons.
+- ![Abobe Express](https://www.adobe.com/express/) - to create my header banner.
+- ![Figma](https://www.figma.com/) - to create my Wireframes  
+- ![Pexel](https://www.pexels.com/royalty-free-images/) - to source my hero image.  
+- ![Google Fonts](https://fonts.google.com/)- used to import the Monospace font-family.  
 
 
 
@@ -135,7 +135,7 @@ My Favourite Page
 - Deployed to GitHub pages ....
 
 ## Credits  
-[w3schools](https://www.w3schools.com/)  
+![w3schools](https://www.w3schools.com/)  
 
-[stackoverflow](https://stackoverflow.com/)  
+![stackoverflow](https://stackoverflow.com/)  
 
