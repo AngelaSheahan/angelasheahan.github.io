@@ -103,7 +103,7 @@ Webpage 2 ba
 
 ## Testing
 - Goofie Games site worked in different browsers: Chrome, Firefox, Safari.
-- My website is fully responsive.
+- My website is fully responsive (by applying media queries in the CSS)
 - My website is easy to navigate.
 - All the links (internal & external) have been tested and work.
 - The form, on page 3 of my site, passed validation tests.
