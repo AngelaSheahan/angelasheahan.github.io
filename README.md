@@ -5,8 +5,10 @@ Users of this website will be able to find a list of FUN computer games, ones to
 
 ## Features (PAGE 1 - HOME PAGE)  
 Laptop view
+
 ![homepage laptop view](docs/home-laptop.PNG)  
 Mobile view
+
 ![homepage mobile view](docs/home-mobile.PNG)  
 
 ### The Header
@@ -28,13 +30,14 @@ Mobile view
 - Social media links to Facebook, Twitter and Instagram (fontawesome icons)
 
 ## FEATURES (PAGE 2 - FUN GAMES PAGE)
-Laptop View  
+Laptop View
 
 ![Fun Games laptop view](docs/fungames-laptop.PNG)  
-  
     
-Mobile View   
-![Fun Games mobile view](docs/fungames-mobile.PNG)  
+Mobile View
+
+![Fun Games mobile view](docs/fungames-mobile.PNG)
+
 The purpose of this page is to introduce the user to an age-appropriate FUN game via:
 The elements on this page are:
 - Game image
@@ -45,10 +48,12 @@ The elements on this page are:
 
 ### FEATURES (PAGE 3 - MY FAVOURITE PAGE)  
 
-  Laptop View 
+Laptop View 
+
 ![My Favourite laptop view](docs/myfavourite-laptop.PNG)  
   
-  Mobile View  
+Mobile View  
+
 ![Fun Games mobile view](docs/fungames-mobile.PNG)
 
 - The 'My Favourites Page' also displays the hero image from the Home Page as its background.  This page also displays a form to be completed by a child so he/she can become members of the Goofie Games club.
@@ -103,13 +108,16 @@ Webpage 2 ba
 
 ### Validator Testing
 - HTML ( W3C Validator)  
-Homepage & Fun Games Page (No errors/warnings)  
+Homepage & Fun Games Page (No errors/warnings)
+
 ![HTML Validator result](docs/html-error-myfavourite.PNG)
 
-- My Favourite Page  
+- My Favourite Page
+
 ![HTML Validator result](docs/html-error-myfavourite.PNG)
 
-- CSS (Jigsaw Validator)  
+- CSS (Jigsaw Validator)
+
 ![CSS Validator result](docs/css-validation-results.PNG)
 
 - Accessibility (Lighthouse in DevTools  
@@ -123,7 +131,8 @@ My Favourite Page
 ## Deployment
 - Deployed to GitHub pages ....
 
-## Credits  
+## Credits
+
 ![w3schools](https://www.w3schools.com/)  
 
 ![stackoverflow](https://stackoverflow.com/)  
