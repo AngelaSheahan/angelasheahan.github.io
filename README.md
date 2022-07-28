@@ -27,16 +27,14 @@ Mobile view
 - A contact email link for my site
 - Social media links to Facebook, Twitter and Instagram (fontawesome icons)
 
-
-
 ## FEATURES (PAGE 2 - FUN GAMES PAGE)
-laptop View
+Laptop View  
+
 ![Fun Games laptop view](docs/fungames-laptop.PNG)  
   
     
- Mobile View   
+Mobile View   
 ![Fun Games mobile view](docs/fungames-mobile.PNG)  
-
 The purpose of this page is to introduce the user to an age-appropriate FUN game via:
 The elements on this page are:
 - Game image
@@ -51,9 +49,7 @@ The elements on this page are:
 ![My Favourite laptop view](docs/myfavourite-laptop.PNG)  
   
   Mobile View  
-    
 ![Fun Games mobile view](docs/fungames-mobile.PNG)
-  
 
 - The 'My Favourites Page' also displays the hero image from the Home Page as its background.  This page also displays a form to be completed by a child so he/she can become members of the Goofie Games club.
 - The form collects:
@@ -88,7 +84,6 @@ Created using ![Figma](https://www.figma.com/)
 ![Mobile Wireframe - Favourite Page](images/wireframes5.png)
 ![Desktop Wireframe - Favourite Page](images/wireframes6.png)
 
- 
 Webpage 2 ba
 ## Technology Used
 - HTML
@@ -99,8 +94,6 @@ Webpage 2 ba
 - ![Pexel](https://www.pexels.com/royalty-free-images/) - to source my hero image.  
 - ![Google Fonts](https://fonts.google.com/)- used to import the Monospace font-family.  
 
-
-
 ## Testing
 - Goofie Games site worked in different browsers: Chrome, Firefox, Safari.
 - My website is fully responsive (by applying media queries in the CSS)
@@ -108,17 +101,13 @@ Webpage 2 ba
 - All the links (internal & external) have been tested and work.
 - The form, on page 3 of my site, passed validation tests.
 
-
 ### Validator Testing
 - HTML ( W3C Validator)  
 Homepage & Fun Games Page (No errors/warnings)  
 ![HTML Validator result](docs/html-error-myfavourite.PNG)
 
-
-
 - My Favourite Page  
 ![HTML Validator result](docs/html-error-myfavourite.PNG)
-
 
 - CSS (Jigsaw Validator)  
 ![CSS Validator result](docs/css-validation-results.PNG)
@@ -138,4 +127,3 @@ My Favourite Page
 ![w3schools](https://www.w3schools.com/)  
 
 ![stackoverflow](https://stackoverflow.com/)  
-
