@@ -80,11 +80,26 @@ The 'Best Recommended Game Winner' section, where a members' game recommendation
 ### Bugs
 
 ### Validator Testing
-- HTML ( W3C Validator)
-- CSS (Jigsaw Validator)
-- Accessibility (Lighthouse in DevTools)
+- HTML ( W3C Validator)  
+Homepage & Fun Games Page (No errors/warnings)  
+![HTML Validator result](docs/html-error-myfavourite.PNG)
 
-### Unfixed Bugs
+
+
+- My Favourite Page  
+![HTML Validator result](docs/html-error-myfavourite.PNG)
+
+
+- CSS (Jigsaw Validator)  
+![CSS Validator result](docs/css-validation-results.PNG)
+
+- Accessibility (Lighthouse in DevTools  
+Homepage
+![Lighthouse Accessibility Result](docs/lighthouse-homepage.PNG)  
+Fun Games Pge 
+![Lighthouse Accessibility Result](docs/lighthouse-fungames.PNG)
+My Favourite Page  
+![Lighthouse Accessibility Result](docs/lighthouse-formpage.PNG)
 
 ### Deployment
 - Deployed to GitHub pages ....
