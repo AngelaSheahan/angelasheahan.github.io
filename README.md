@@ -5,6 +5,8 @@ Users of this website will be able to find a list of FUN computer games, ones to
 
 ## Features (PAGE 1 - HOME PAGE)
 
+![alt text](docs/Capture.PNG "Logo Title Text 1")
+
 ### The Header
 
 #### Banner
