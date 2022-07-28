@@ -54,7 +54,7 @@ Laptop View
   
 Mobile View  
 
-![Fun Games mobile view](docs/fungames-mobile.PNG)
+![My Favourite mobile view](docs/myfavourite-mobile.PNG)
 
 - The 'My Favourites Page' also displays the hero image from the Home Page as its background.  This page also displays a form to be completed by a child so he/she can become members of the Goofie Games club.
 - The form collects:
@@ -89,7 +89,6 @@ Created using [Figma](https://www.figma.com/)
 ![Mobile Wireframe - Favourite Page](images/wireframes5.png)
 ![Desktop Wireframe - Favourite Page](images/wireframes6.png)
 
-Webpage 2 ba
 ## Technology Used
 - HTML
 - CSS
