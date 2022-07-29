@@ -109,7 +109,7 @@ Created using [Figma](https://www.figma.com/)
 #### HTML Testing (via W3C Validator)
 - Homepage & Fun Games Page (No errors/warnings)
 
-![HTML Validator result](docs/html-error-myfavourite.PNG)
+![HTML Validator result](docs/html-val-result-indexpage.PNG)
 
 - My Favourite Page
 
